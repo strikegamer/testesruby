@@ -1,0 +1,38 @@
+Features:
+
+Stash: Salva suas alterações, separado, pra mexer em coisas mais urgentes, sem interferir no projeto q vc ta mexendo
+
+Index: Itens q vc seleciona para entrar no commit
+com -a, pega todas as alteracoes automatico
+
+Bisect :s: Busca bugs entre commits... vc seta o ultimo q tava funcionando, e ele vai testando os commits pra encontrar em qual tá o bug...
+
+GIT-SVN: Usa o GIT no SVN...
+
+
+Outro repositorio Web:
+http://codebase.com
+
+
+
+DETALHES GIT:
+
+No git add -i :
+
+Pra adicionar varios arquivos, colocar os numeros deles separados por espaços.
+Espaço tambem no inicio e no final do numero....
+
+
+
+
+Para upar branches e mapeá-los:
+
+Criar o branch local                git chechout -b "nomedonovobranch"
+Upar o branch:                      git push origin "nomedonovobranch"
+deletar o branch local:             git branch -D "nomedonovobranch"
+Puxa o branch remotopro  local:     git branch -f "nomedonovobranch" origin/"nomedonovobranch"
+
+
+
+
+
